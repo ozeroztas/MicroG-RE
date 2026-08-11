@@ -38,6 +38,7 @@
     <string name="self_check_desc">اطمینان حاصل کنید که دستگاه به درستی برای استفاده از microG پیکربندی شده است</string>
     <!--UI preview-->
     <string name="about_root_title">نمایش رابط کاربری microG</string>
-    <string name="about_root_version">نسخه v0.1.0</string>
+    <string name="about_root_version">نسخه v0.1.0
+</string>
     <string name="about_root_libraries">کتابخانه‌های شامل شده</string>
 </resources>

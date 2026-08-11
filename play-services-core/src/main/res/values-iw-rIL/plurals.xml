@@ -17,22 +17,22 @@
 <resources>
     <!--Google Cloud Messaging-->
     <plurals name="gcm_registered_apps_counter">
-        <item quantity="one">%d רשום אפליקציות</item>
-        <item quantity="two">%d רשומים אפליקציות</item>
-        <item quantity="many">%d רשומים אפליקציות</item>
-        <item quantity="other">%d רשומים אפליקציות</item>
+        <item quantity="one">אפליקציה %1$d רשומה</item>
+        <item quantity="two">%1$d אפליקציות רשומות</item>
+        <item quantity="many">%1$d אפליקציות רשומות</item>
+        <item quantity="other">%1$d אפליקציות רשומות</item>
     </plurals>
     <!--Conditions-->
     <plurals name="cond_perm_summary">
         <item quantity="one">אישור הנדרש לפעולתיות מיקרוג אינו הוענק.</item>
         <item quantity="two">אישורים הנדרשים לפעולתיות מיקרוג אינם הוענקו.</item>
-        <item quantity="many">אישורים הנדרשים לפעולתיות מיקרוג אינם הוענקו.</item>
-        <item quantity="other">אישורים הנדרשים לפעולתיות מיקרוג אינם הוענקו.</item>
+        <item quantity="many">לא ניתנו הרשאות הנדרשות לתפקוד תקין של שירותי microG.</item>
+        <item quantity="other">לא ניתנו הרשאות הנדרשות לתפקוד תקין של שירותי microG.</item>
     </plurals>
     <plurals name="cond_perm_action">
-        <item quantity="one">בקשה רשאה חסרה</item>
-        <item quantity="two">בקשה רשאות חסרות</item>
-        <item quantity="many">בקשה רשאות חסרות</item>
-        <item quantity="other">בקשה רשאות חסרות</item>
+        <item quantity="one">בקשת הרשאה חסרה</item>
+        <item quantity="two">בקשה להרשאות חסרות</item>
+        <item quantity="many">בקשה להרשאות חסרות</item>
+        <item quantity="other">בקשה להרשאות חסרות</item>
     </plurals>
 </resources>

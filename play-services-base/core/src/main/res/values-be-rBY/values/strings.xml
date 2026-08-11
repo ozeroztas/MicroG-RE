@@ -5,11 +5,25 @@
   -->
 <resources>
     <!--Foreground service notification-->
+    <string name="foreground_service_notification_title">Працуе ў фонавым рэжыме</string>
     <!-- %1$s is a notification text such as "Exposure Notification" -->
+    <string name="foreground_service_notification_text" formatted="true">1$s працуе ў фоне</string>
     <!-- %1$s is a notification text such as "mnicroG Services" -->
+    <string name="foreground_service_notification_big_text">Выключыць %1$s з аптымізацыі батарэі або змяніць налады апавяшчэнняў, каб схаваць гэтае апавяшчэнне</string>
     <!--foreground service: notification actions-->
+    <string name="foreground_action_battery_optimization">Аптымізацыя акумулятара</string>
+    <string name="foreground_action_notification_settings">Налады</string>
     <!--Actionbar menu-->
+    <string name="menu_settings">Налады</string>
     <!--Google Cloud Messaging-->
+    <string name="list_no_item_none">Няма</string>
+    <string name="list_item_see_all">Убачыць усе</string>
     <!--gcm: network status-->
+    <string name="service_status_disabled">Адключана</string>
+    <string name="service_status_enabled">Уключана</string>
+    <string name="service_status_automatic">Аўтаматычна</string>
+    <string name="service_status_manual">Уручную</string>
+    <string name="service_status_enabled_short">Укл.</string>
+    <string name="service_status_disabled_short">Выкл.</string>
     <!--Patchers names-->
 </resources>

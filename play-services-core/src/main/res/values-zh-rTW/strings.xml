@@ -204,12 +204,12 @@
     <string name="pref_network_google_use_tor_summary">"需要安裝 Orbot
 尚未支援"</string>
     <string name="pref_auth_trust_google_title">信任 Google 以獲得應用程式權限</string>
-    <string name="pref_auth_trust_google_summary">停用後，向 Google 發送應用程式授權請求前會先詢問用戶。若停用此功能，某些應用程式將無法使用 Google 帳戶</string>
+    <string name="pref_auth_trust_google_summary">停用後，向 Google 傳送應用程式授權請求前會先詢問使用者。若停用此功能，某些應用程式將無法使用 Google 帳戶</string>
     <string name="pref_auth_visible_title">允許應用程式尋找帳戶</string>
     <string name="pref_auth_visible_summary">啟用後，此裝置上的所有應用程式將能在未經事先授權的情況下查看您 Google 帳戶的電子郵件地址</string>
     <string name="pref_auth_include_android_id_title">使用裝置註冊進行驗證</string>
     <string name="pref_auth_include_android_id_summary">當停用時，驗證請求將不會與裝置註冊連結，這允許未經授權的裝置登入，但可能會產生不可預見的後果</string>
-    <string name="pref_auth_strip_device_name_title">移除驗證設備名稱</string>
+    <string name="pref_auth_strip_device_name_title">移除驗證裝置名稱</string>
     <string name="pref_auth_strip_device_name_summary">當啟用時，驗證請求不會包含裝置名稱，這可能會允許未經授權的裝置登入，但也可能產生意料之外的後果</string>
     <!--preferences: hide icon in launcher-->
     <string name="pref_hide_launcher_icon">隱藏啟動器圖示</string>
@@ -218,7 +218,7 @@
     <string name="pref_github_summary">原始碼儲存庫</string>
     <!--Permissions-->
     <string name="perm_status_broadcast_label">接收內部狀態廣播</string>
-    <string name="perm_gsf_read_gservices_label">閱讀 Google 服務設置</string>
+    <string name="perm_gsf_read_gservices_label">閱讀 Google 服務設定</string>
     <string name="perm_c2dm_receive_label">接收 C2DM 資訊</string>
     <string name="perm_c2dm_send_label">將 C2DM 資訊傳送到其他應用程式</string>
     <string name="perm_gtalk_svc_label">與 Google 伺服器交換並接收同步訊息</string>

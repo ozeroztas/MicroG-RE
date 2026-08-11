@@ -134,12 +134,12 @@ Fortfahren? "</string>
     <string name="self_check_action_download_morphe">Morphe herunterladen</string>
     <!--self check: permission-->
     <string name="self_check_name_notifications">Benachrichtigungen erlaubt</string>
-    <string name="self_check_resolution_notifications">Tippen Sie hier, um die Benachrichtigungseinstellungen zu öffnen. Benachrichtigungen werden verwendet, um GcmService im Hintergrund laufen zu lassen, wenn die Batterieoptimierung aktiviert ist oder unter anderen Bedingungen </string>
+    <string name="self_check_resolution_notifications">Tippe hier, um die Benachrichtigungseinstellungen zu öffnen. Benachrichtigungen werden verwendet, um GcmService im Hintergrund laufen zu lassen, wenn die Akkuoptimierung aktiviert ist oder unter anderen Bedingungen</string>
     <string name="self_check_name_overlay">Anzeigen über anderen Apps erlaubt</string>
     <string name="self_check_resolution_overlay">Tippen Sie hier, um diese Erlaubnis zu erteilen. Diese Berechtigung ist erforderlich, um Pop-up-Benachrichtigungen über anderen Apps anzuzeigen </string>
     <!--self check: system-->
-    <string name="self_check_name_battery_optimizations">Batterieoptimierungen deaktiviert</string>
-    <string name="self_check_resolution_battery_optimizations">Tippen Sie hier, um Batterieoptimierungen zu deaktivieren. Wenn Sie nicht deaktiviert sind, können Probleme auftreten, wenn Sie Benachrichtigungen von YouTube und anderen registrierten Apps erhalten </string>
+    <string name="self_check_name_battery_optimizations">Akkuoptimierungen deaktiviert</string>
+    <string name="self_check_resolution_battery_optimizations">Tippe hier, um die Akkuoptimierungen zu deaktivieren. Wenn diese nicht deaktiviert sind, kann es zu Problemen beim Empfangen von Benachrichtigungen von YouTube und anderen registrierten Apps kommen</string>
     <string name="self_check_name_oem_restriction">Hintergrundeinschränkungen des Prozesses </string>
     <string name="self_check_resolution_oem_restriction">Ihr System kann möglicherweise Hintergrundprozesse einschränken. Tippen Sie hier, um die Website Don\'t Kill My App! zu öffnen und erfahren Sie, wie Sie diese Einschränkungen deaktivieren können </string>
     <!--self check: signature-->
@@ -189,7 +189,9 @@ Fortfahren? "</string>
     <string name="pref_push_app_allow_register_summary">Erlauben Sie der App, sich für Push-Benachrichtigungen zu registrieren</string>
     <string name="pref_push_app_wake_for_delivery_title">Starte App bei Push-Nachricht</string>
     <string name="pref_push_app_wake_for_delivery_summary">Starten Sie die App im Hintergrund, um eingehende Push-Nachrichten zu empfangen</string>
-    <string name="pref_gcm_enable_mcs_summary">Cloud-Messaging ist ein Dienst für Push-Benachrichtigungen, der für modifizierte Apps verwendet wird. Um diesen zu nutzen, muss die Geräteregistrierung aktiviert sein</string>
+    <string name="pref_gcm_enable_mcs_summary">Cloud-Messaging ist ein Dienst für Push-Benachrichtigungen, der für modifizierte Apps verwendet wird. Um diesen zu nutzen, muss die Geräteregistrierung aktiviert sein
+
+</string>
     <string name="pref_gcm_confirm_new_apps_title">Bestätige neue Apps</string>
     <string name="pref_gcm_confirm_new_apps_summary">Neue Apps müssen vor der Registrierung für Push-Benachrichtigungen bestätigt werden</string>
     <string name="pref_gcm_remove_registers">Entferne alle registrierten Apps</string>
@@ -223,8 +225,8 @@ Momentan wird dieser Dienst noch nicht unterstützt"</string>
     <string name="perm_gtalk_svc_label">Nachrichten austauschen und Sync-Benachrichtigungen von Google-Servern empfangen</string>
     <string name="perm_extended_access_label">Erweiterter Zugriff auf Google-Dienste</string>
     <!--Conditions-->
-    <string name="cond_gcm_bat_title">Batterieoptimierungen aktiviert</string>
-    <string name="cond_gcm_bat_summary">Sie haben Cloud Messaging aktiviert, aber Batterieoptimierungen für microG Services aktiviert. Damit Sie Push-Benachrichtigungen erhalten können, sollten Sie Batterieoptimierungen ignorieren</string>
+    <string name="cond_gcm_bat_title">Akkuoptimierungen aktiviert</string>
+    <string name="cond_gcm_bat_summary">Cloud-Nachrichten sind aktiviert, aber Akkuoptimierungen für MicroG-Dienste aktiv. Um Push-Benachrichtigungen zu erhalten, sollten Akkuoptimierungen ignoriert werden.</string>
     <string name="cond_gcm_bat_action">Optimierungen ignorieren</string>
     <string name="cond_perm_title">Berechtigung fehlt</string>
 </resources>

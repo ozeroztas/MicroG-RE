@@ -21,6 +21,7 @@
     <!-- %1$s is an app name, such as "YouTube" -->
     <string name="signin_confirm_title">Dopustite prijavu u %1$s</string>
     <!-- %1$s is an app name, such as "YouTube" -->
+    <string name="signin_subtext_sharing">Za nastavak, microG će podijeliti ime, adresu e-pošte i profilnu sliku vašeg Google računa s %1$s</string>
     <!--auth: buttons-->
     <!--auth: messages-->
     <string name="auth_before_connect">"Povežite Google račun s microG.
@@ -101,7 +102,8 @@ Da li želite nastaviti?"</string>
     <string name="allow">Dopusti</string>
     <string name="deny">Odbij</string>
     <!--gcm: ask permission tos-->
-    <string name="ask_permission_tos">Nastavkom korištenja dopuštate ovoj aplikaciji i Googleu da koriste vaše podatke u skladu s njihovim uvjetima pružanja usluge i pravilima o privatnosti.</string>
+    <string name="ask_permission_tos">Nastavkom korištenja dopuštate ovoj aplikaciji i Googleu da koriste vaše podatke u skladu s njihovim uvjetima pružanja usluge i pravilima o privatnosti.
+</string>
     <!-- %1$s is an app name, such as "YouTube" -->
     <string name="ask_scope_permission_title">%1$s želi:</string>
     <string name="ask_service_permission_title">%1$s želi koristiti:</string>
@@ -134,14 +136,16 @@ Da li želite nastaviti?"</string>
     <string name="self_check_action_download_morphe">Preuzmite Morphe</string>
     <!--self check: permission-->
     <string name="self_check_name_notifications">Obavijesti dopuštene</string>
-    <string name="self_check_resolution_notifications">Dodirnite ovdje za otvaranje postavki obavijesti. Obavijesti se koriste kako bi GcmService radio u pozadini kada je omogućena optimizacija baterije ili pod drugim uvjetima.</string>
+    <string name="self_check_resolution_notifications">Dodirnite ovdje za otvaranje postavki obavijesti. Obavijesti se koriste kako bi GcmService radio u pozadini kada je omogućena optimizacija baterije ili pod drugim uvjetima.
+</string>
     <string name="self_check_name_overlay">Dopušten je prikaz preko drugih aplikacija</string>
     <string name="self_check_resolution_overlay">Dodirnite ovdje da biste dali ovo dopuštenje. Ovo dopuštenje je potrebno za prikaz skočnih upozorenja preko drugih aplikacija.</string>
     <!--self check: system-->
     <string name="self_check_name_battery_optimizations">Optimizacije baterije onemogućena</string>
     <string name="self_check_resolution_battery_optimizations">Dodirnite ovdje da biste onemogućili optimizacije baterije. Ako nisu onemogućene, možete imati problema s primanjem obavijesti s YouTubea i drugih registriranih aplikacija.</string>
     <string name="self_check_name_oem_restriction">Ograničenja pozadinskih procesa</string>
-    <string name="self_check_resolution_oem_restriction">Vaš sustav može ograničiti pozadinske procese. Dodirnite ovdje da biste otvorili stranicu Don\'t Kill My App! i saznali kako onemogućiti ta ograničenja.</string>
+    <string name="self_check_resolution_oem_restriction">Vaš sustav može ograničiti pozadinske procese. Dodirnite ovdje da biste otvorili stranicu Don\'t Kill My App! i saznali kako onemogućiti ta ograničenja.
+</string>
     <!--self check: signature-->
     <string name="self_check_name_system_spoofs">Sustav lažira potpis</string>
     <string name="self_check_resolution_system_spoofs">Molimo provjerite dokumentaciju o tome koji koraci bi mogli biti potrebni</string>
@@ -198,7 +202,8 @@ Da li želite nastaviti?"</string>
     <string name="pref_privacy_title">Privatnost</string>
     <string name="pref_privacy_summary">Postavke privatnosti za autentifikaciju i aplikacije</string>
     <string name="pref_network_google_enabled">Dopusti povezivanje s Googleovim poslužiteljima</string>
-    <string name="pref_network_google_enabled_summary">Ako je onemogućeno, sve veze s Googleovim poslužiteljima koje obično uspostavlja microG bit će odbijene. Ovo poništava postavke specifične za uslugu.</string>
+    <string name="pref_network_google_enabled_summary">Ako je onemogućeno, sve veze s Googleovim poslužiteljima koje obično uspostavlja microG bit će odbijene. Ovo poništava postavke specifične za uslugu.
+</string>
     <string name="pref_network_google_use_tor">Povežite se s Googleom putem Tor mreže</string>
     <string name="pref_network_google_use_tor_summary">"Potrebno je instalirati Orbot
 Još nije podržano"</string>
@@ -224,7 +229,8 @@ Još nije podržano"</string>
     <string name="perm_extended_access_label">Prošireni pristup Googleovim uslugama</string>
     <!--Conditions-->
     <string name="cond_gcm_bat_title">Optimizacije baterije omogućene</string>
-    <string name="cond_gcm_bat_summary">Omogućili ste slanje poruka u oblaku, ali imate aktivne optimizacije baterije za microG usluge. Da bi push obavijesti stizale, trebali biste zanemariti optimizacije baterije.</string>
+    <string name="cond_gcm_bat_summary">Omogućili ste slanje poruka u oblaku, ali imate aktivne optimizacije baterije za microG usluge. Da bi push obavijesti stizale, trebali biste zanemariti optimizacije baterije.
+</string>
     <string name="cond_gcm_bat_action">Zanemari optimizacije</string>
     <string name="cond_perm_title">Nedostaje dopuštenje</string>
 </resources>

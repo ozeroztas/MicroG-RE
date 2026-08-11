@@ -35,7 +35,7 @@
     <!--Settings Preferences-->
     <!--preferences: self-check-->
     <string name="self_check_title">การตรวจสอบตัวเอง</string>
-    <string name="self_check_desc">ตรวจสอบให้แน่ใจว่าเครื่องใช้ microG ติดตั้งเรียบร้อยแล้ว</string>
+    <string name="self_check_desc">ตรวจสอบให้แน่ใจว่าอุปกรณ์ได้รับการกำหนดค่าให้ใช้ microG อย่างถูกต้องแล้ว</string>
     <!--UI preview-->
     <string name="about_root_title">ตัวอย่าง UI microG</string>
     <string name="about_root_version">เวอร์ชัน v0.1.0</string>

@@ -16,5 +16,23 @@
   -->
 <resources>
     <!--Google Cloud Messaging-->
+    <plurals name="gcm_registered_apps_counter">
+        <item quantity="one">%1$d зарэгістраваная праграма</item>
+        <item quantity="few">%1$d зарэгістраваныя праграмы</item>
+        <item quantity="many">%1$d зарэгістраваных праграм</item>
+        <item quantity="other">%1$d зарэгістраваных праграм</item>
+    </plurals>
     <!--Conditions-->
+    <plurals name="cond_perm_summary">
+        <item quantity="one">Не прадастаўлен дазвол, неабходны для правільнай працы сэрвісаў microG.</item>
+        <item quantity="few">Не прадастаўлены дазволы, неабходныя для правільнай працы сэрвісаў microG.</item>
+        <item quantity="many">Не прадастаўлены дазволы, неабходныя для правільнай працы сэрвісаў microG.</item>
+        <item quantity="other">Не прадастаўлены дазволы, неабходныя для правільнай працы сэрвісаў microG.</item>
+    </plurals>
+    <plurals name="cond_perm_action">
+        <item quantity="one">Запытаць адсутную дазволу</item>
+        <item quantity="few">Запытаць адсутныя дазволы</item>
+        <item quantity="many">Запытаць адсутныя дазволы</item>
+        <item quantity="other">Запытаць адсутныя дазволы</item>
+    </plurals>
 </resources>

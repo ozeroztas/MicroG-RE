@@ -16,5 +16,23 @@
   -->
 <resources>
     <!--Google Cloud Messaging-->
+    <plurals name="gcm_registered_apps_counter">
+        <item quantity="one">%1$d užregistruota programėle</item>
+        <item quantity="few">%1$d užregistruotos programėlės</item>
+        <item quantity="many">%1$d užregistruotos programėlės</item>
+        <item quantity="other">%1$d užregistruotos programėlės</item>
+    </plurals>
     <!--Conditions-->
+    <plurals name="cond_perm_summary">
+        <item quantity="one">Leidimas reikalingas teisingam microG paslaugų veikimui nesuteiktas</item>
+        <item quantity="few">Leidimai reikalingi teisingam microG paslaugų veikimui nesuteikti</item>
+        <item quantity="many">Leidimai reikalingi teisingam microG paslaugų veikimui nesuteikti</item>
+        <item quantity="other">Leidimai reikalingi teisingam microG paslaugų veikimui nesuteikti</item>
+    </plurals>
+    <plurals name="cond_perm_action">
+        <item quantity="one">Prašyti trūkstamo leidimo</item>
+        <item quantity="few">Prašyti trūkstamų leidimų</item>
+        <item quantity="many">Prašyti trūkstamų leidimų</item>
+        <item quantity="other">Prašyti trūkstamų leidimų</item>
+    </plurals>
 </resources>

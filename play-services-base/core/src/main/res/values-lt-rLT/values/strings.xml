@@ -5,11 +5,25 @@
   -->
 <resources>
     <!--Foreground service notification-->
+    <string name="foreground_service_notification_title">Aktyvus fone</string>
     <!-- %1$s is a notification text such as "Exposure Notification" -->
+    <string name="foreground_service_notification_text" formatted="true">%1$s veikia fone</string>
     <!-- %1$s is a notification text such as "mnicroG Services" -->
+    <string name="foreground_service_notification_big_text">Neįtraukti %1$s į baterijos optimizacijas arba keisti pranešimų nustatymus, kad paslėpti šį pranešimą</string>
     <!--foreground service: notification actions-->
+    <string name="foreground_action_battery_optimization">Baterijos optimizacija</string>
+    <string name="foreground_action_notification_settings">Nustatymai</string>
     <!--Actionbar menu-->
+    <string name="menu_settings">Nustatymai</string>
     <!--Google Cloud Messaging-->
+    <string name="list_no_item_none">Nieko</string>
+    <string name="list_item_see_all">Matyti visus</string>
     <!--gcm: network status-->
+    <string name="service_status_disabled">Išjungtas</string>
+    <string name="service_status_enabled">Įjungtas</string>
+    <string name="service_status_automatic">Automatinis</string>
+    <string name="service_status_manual">Rankinis</string>
+    <string name="service_status_enabled_short">Taip</string>
+    <string name="service_status_disabled_short">Ne</string>
     <!--Patchers names-->
 </resources>
