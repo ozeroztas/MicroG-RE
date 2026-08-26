@@ -16,13 +16,19 @@ jobs:
         with:
           fetch-depth: 0
           ref: main
+          token: ${{ secrets.UPSTREAM_SYNC_TOKEN }}
 
       - name: Sync MicroG RE
+        env:
+          GH_TOKEN: ${{ secrets.UPSTREAM_SYNC_TOKEN }}
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
           git remote add upstream https://github.com/MorpheApp/MicroG-RE.git
+
+          git remote set-url origin "https://x-access-token:${GH_TOKEN}@github.com/ozeroztas/MicroG-RE.git"
+
           git fetch upstream --tags
 
           git merge upstream/main --no-edit
