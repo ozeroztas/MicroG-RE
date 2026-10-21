@@ -59,10 +59,18 @@
             android:exported="false" />
 
         <service
-            android:name="org.microg.gms.location.manager.LocationManagerService"
+            android:name="org.microg.gms.location.manager.GoogleLocationManagerService"
             android:exported="true">
             <intent-filter>
                 <action android:name="${basePackageName}.android.location.internal.GoogleLocationManagerService.START" />
+            </intent-filter>
+        </service>
+
+        <service
+            android:name="org.microg.gms.location.manager.LocationManagerService"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="org.microg.gms.location.manager.ACTION_REPORT_LOCATION" />
             </intent-filter>
         </service>
 
@@ -81,7 +89,7 @@
             android:name="org.microg.gms.location.ui.ConfigurationRequiredReceiver"
             android:exported="false">
             <intent-filter>
-                <action android:name="${basePackageName}.gms.location.network.ACTION_CONFIGURATION_REQUIRED" />
+                <action android:name="org.microg.gms.location.network.ACTION_CONFIGURATION_REQUIRED" />
             </intent-filter>
         </receiver>
     </application>
