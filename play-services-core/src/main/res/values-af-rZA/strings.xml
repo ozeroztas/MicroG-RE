@@ -24,9 +24,7 @@
     <string name="signin_subtext_sharing">Om voort te gaan, sal microG die naam, e-posadres en profielfoto van jou Google-rekening met %1$s deel</string>
     <!--auth: buttons-->
     <!--auth: messages-->
-    <string name="auth_before_connect">"Koppel Google-rekening met microG.
-
-Kom ons koppel aan 'n Google-rekening, gebruik die <b>Meld aan</b>-knoppie of gebruik die <b>Huawei</b>-knoppie as jy 'n toestel met hierdie vervaardiger het. Deur op een van die knoppies te druk, word jy herlei na die bladsy om by jou rekening aan te teken."</string>
+    <string name="auth_before_connect">Koppel jou Google-rekening aan microG. Gebruik die Meld aan-knoppie of die Huawei-knoppie om aan te meld.</string>
     <string name="auth_connecting">"Jou toestel maak 'n verbinding met Google se bedieners om jou aan te teken.
 
 Dit kan 'n paar sekondes neem"</string>
