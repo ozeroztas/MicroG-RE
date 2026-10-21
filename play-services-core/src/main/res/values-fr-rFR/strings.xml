@@ -21,7 +21,7 @@
     <!-- %1$s is an app name, such as "YouTube" -->
     <string name="signin_confirm_title">Autoriser la connexion à %1$s</string>
     <!-- %1$s is an app name, such as "YouTube" -->
-    <string name="signin_subtext_sharing">Pour continuer, microG partagera le nom, l\'adresse e-mail et la photo de profil de votre compte Google avec %1$s</string>
+    <string name="signin_subtext_sharing">Pour continuer, microG partagera le nom, l'adresse e-mail et la photo de profil de votre compte Google avec %1$s</string>
     <!--auth: buttons-->
     <!--auth: messages-->
     <string name="auth_before_connect">Connecter un compte Google avec microG.
@@ -99,17 +99,17 @@ Voulez-vous la désenregistrer maintenant afin qu'elle ne reçoive plus de messa
     <string name="push_notifications_summary_values_minutes">%s minutes</string>
     <!--gcm: ask push permission dialog-->
     <!-- %1$s is an app name, such as "YouTube" -->
-    <string name="gcm_allow_app_popup">Autoriser %1$s à s\'enregistrer pour les notifications push ?</string>
+    <string name="gcm_allow_app_popup">Autoriser %1$s à s'enregistrer pour les notifications push ?</string>
     <string name="allow">Autoriser</string>
     <string name="deny">Refuser</string>
     <!--gcm: ask permission tos-->
-    <string name="ask_permission_tos">En continuant, vous autorisez cette application et Google à utiliser vos informations conformément à leurs conditions d\'utilisation et politiques de confidentialité respectives</string>
+    <string name="ask_permission_tos">En continuant, vous autorisez cette application et Google à utiliser vos informations conformément à leurs conditions d'utilisation et politiques de confidentialité respectives</string>
     <!-- %1$s is an app name, such as "YouTube" -->
     <string name="ask_scope_permission_title">%1$s souhaiterait :</string>
     <string name="ask_service_permission_title">%1$s souhaiterait utiliser :</string>
     <!--Device Registration-->
-    <string name="service_name_checkin">Enregistrement de l\'appareil</string>
-    <string name="checkin_enable_switch">Enregistrer l\'appareil</string>
+    <string name="service_name_checkin">Enregistrement de l'appareil</string>
+    <string name="checkin_enable_switch">Enregistrer l'appareil</string>
     <!--checkin: registration status-->
     <string name="checkin_not_registered">Non enregistré</string>
     <!-- %1$s is a date time, such as  app name, such as "Yesterday, 02:20 PM" -->
@@ -132,16 +132,16 @@ Voulez-vous la désenregistrer maintenant afin qu'elle ne reçoive plus de messa
     <!-- %1$s is an app name, such as "Morphe" -->
     <string name="self_check_patched_app_installed">Exécuté avec %1$s</string>
     <!-- %1$s is an app name, such as "YouTube" -->
-    <string name="self_check_resolution_patched_app_installed">Applications utilisant %1$s introuvables. Veuillez patcher et installer l\'application modifiée</string>
+    <string name="self_check_resolution_patched_app_installed">Applications utilisant %1$s introuvables. Veuillez patcher et installer l'application modifiée</string>
     <string name="self_check_action_download_morphe">Télécharger Morphe</string>
     <!--self check: permission-->
     <string name="self_check_name_notifications">Notifications autorisées</string>
-    <string name="self_check_resolution_notifications">Appuyez ici pour ouvrir les paramètres de notifications. Les notifications sont utilisées pour maintenir GcmService en exécution en arrière-plan lorsque l\'optimisation de la batterie est activée ou dans d\'autres conditions</string>
+    <string name="self_check_resolution_notifications">Appuyez ici pour ouvrir les paramètres de notifications. Les notifications sont utilisées pour maintenir GcmService en exécution en arrière-plan lorsque l'optimisation de la batterie est activée ou dans d'autres conditions</string>
     <string name="self_check_name_overlay">Affichage par-dessus les autres applications autorisé</string>
     <string name="self_check_resolution_overlay">Appuyez ici pour accorder cette autorisation. Cette autorisation est nécessaire pour afficher des alertes pop-up par-dessus les autres applications</string>
     <!--self check: system-->
     <string name="self_check_name_battery_optimizations">Optimisations de la batterie désactivées</string>
-    <string name="self_check_resolution_battery_optimizations">Appuyez ici pour désactiver les optimisations de la batterie. Si elles restent activées, vous pourriez rencontrer des problèmes de réception des notifications de YouTube et d\'autres applications enregistrées</string>
+    <string name="self_check_resolution_battery_optimizations">Appuyez ici pour désactiver les optimisations de la batterie. Si elles restent activées, vous pourriez rencontrer des problèmes de réception des notifications de YouTube et d'autres applications enregistrées</string>
     <string name="self_check_name_oem_restriction">Restrictions des processus en arrière-plan</string>
     <string name="self_check_resolution_oem_restriction">Votre système peut restreindre les processus en arrière-plan. Appuyez ici pour ouvrir le site Don’t Kill My App! et apprendre comment désactiver ces restrictions</string>
     <!--self check: signature-->
@@ -152,7 +152,7 @@ Voulez-vous la désenregistrer maintenant afin qu'elle ne reçoive plus de messa
     <!-- %1$s is an app name, such as "YouTube" -->
     <string name="self_check_name_app_installed">%1$s installé</string>
     <!-- %1$s is an app name, such as "YouTube" -->
-    <string name="self_check_resolution_app_installed">Installez l\'application %1$s ou une application compatible. Veuillez consulter la documentation pour savoir quelles applications sont compatibles</string>
+    <string name="self_check_resolution_app_installed">Installez l'application %1$s ou une application compatible. Veuillez consulter la documentation pour savoir quelles applications sont compatibles</string>
     <!--Settings Preferences-->
     <!--preferences: categories-->
     <string name="prefcat_accounts_login_accounts_title">Connecté</string>
@@ -173,47 +173,47 @@ Voulez-vous la désenregistrer maintenant afin qu'elle ne reçoive plus de messa
     <string name="pref_account_summary">Se connecter à un nouveau compte Google</string>
     <string name="pref_accounts_summary">Ajouter et gérer les comptes Google</string>
     <string name="pref_accounts_manage_accounts_title">Gérer les comptes</string>
-    <string name="pref_accounts_manage_accounts_summary">Ouvrir le gestionnaire de comptes de l\'appareil</string>
-    <string name="pref_manage_all_history">Gérer tout l\'historique</string>
+    <string name="pref_accounts_manage_accounts_summary">Ouvrir le gestionnaire de comptes de l'appareil</string>
+    <string name="pref_manage_all_history">Gérer tout l'historique</string>
     <string name="pref_data_in_youtube">Vos données sur YouTube</string>
     <string name="pref_accounts_login_accounts_summary">Les comptes sont enregistrés et stockés uniquement sur cet appareil. Appuyez sur un compte pour le supprimer définitivement de cet appareil</string>
     <!--preferences: device registration-->
-    <string name="pref_device_registration_device_profile_category">Profil de l\'appareil</string>
+    <string name="pref_device_registration_device_profile_category">Profil de l'appareil</string>
     <string name="pref_device_registration_select_profile_title">Sélectionner un profil</string>
     <string name="pref_device_registration_import_custom_profile_title">Importer un profil personnalisé</string>
-    <string name="pref_device_registration_import_custom_profile_summary">Importer le profil de l\'appareil à partir d\'un fichier</string>
+    <string name="pref_device_registration_import_custom_profile_summary">Importer le profil de l'appareil à partir d'un fichier</string>
     <string name="pref_device_registration_serial_title">Série</string>
     <string name="pref_device_registration_android_id">Android ID</string>
-    <string name="pref_checkin_enable_summary">Enregistre votre appareil auprès des services Google et crée un identifiant unique pour l\'appareil. microG supprime les éléments d\'identification autres que le nom de votre compte Google des données d\'enregistrement</string>
+    <string name="pref_checkin_enable_summary">Enregistre votre appareil auprès des services Google et crée un identifiant unique pour l'appareil. microG supprime les éléments d'identification autres que le nom de votre compte Google des données d'enregistrement</string>
     <!--preferences: cloud messaging-->
     <string name="prefcat_push_apps_title">Applications utilisant les notifications push</string>
-    <string name="pref_push_app_allow_register_title">Autoriser l\'enregistrement</string>
-    <string name="pref_push_app_allow_register_summary">Autoriser l\'application à s\'enregistrer pour les notifications push</string>
-    <string name="pref_push_app_wake_for_delivery_title">Démarrer l\'application lors de la réception d\'un message push</string>
-    <string name="pref_push_app_wake_for_delivery_summary">Démarrer l\'application en arrière-plan pour recevoir les messages push entrants</string>
-    <string name="pref_gcm_enable_mcs_summary">Cloud Messaging est un fournisseur de notifications push utilisé pour les applications modifiées. Pour l\'utiliser, vous devez activer l\'enregistrement de l\'appareil</string>
+    <string name="pref_push_app_allow_register_title">Autoriser l'enregistrement</string>
+    <string name="pref_push_app_allow_register_summary">Autoriser l'application à s'enregistrer pour les notifications push</string>
+    <string name="pref_push_app_wake_for_delivery_title">Démarrer l'application lors de la réception d'un message push</string>
+    <string name="pref_push_app_wake_for_delivery_summary">Démarrer l'application en arrière-plan pour recevoir les messages push entrants</string>
+    <string name="pref_gcm_enable_mcs_summary">Cloud Messaging est un fournisseur de notifications push utilisé pour les applications modifiées. Pour l'utiliser, vous devez activer l'enregistrement de l'appareil</string>
     <string name="pref_gcm_confirm_new_apps_title">Confirmer les nouvelles applications</string>
-    <string name="pref_gcm_confirm_new_apps_summary">Demander avant d\'enregistrer une nouvelle application pour recevoir des notifications push</string>
+    <string name="pref_gcm_confirm_new_apps_summary">Demander avant d'enregistrer une nouvelle application pour recevoir des notifications push</string>
     <string name="pref_gcm_remove_registers">Supprimer toutes les applications enregistrées</string>
     <string name="pref_gcm_remove_registers_summary">Utilisez cette option uniquement si vous rencontrez des problèmes pour enregistrer une application ou recevoir des notifications</string>
     <!--preferences: privacy-->
     <string name="pref_privacy_title">Confidentialité</string>
-    <string name="pref_privacy_summary">Paramètres de confidentialité pour l\'authentification et les applications</string>
+    <string name="pref_privacy_summary">Paramètres de confidentialité pour l'authentification et les applications</string>
     <string name="pref_network_google_enabled">Autoriser la connexion aux serveurs Google</string>
     <string name="pref_network_google_enabled_summary">Si désactivé, toutes les connexions aux serveurs Google normalement effectuées par microG seront refusées. Cela surpasse les paramètres spécifiques aux services.</string>
     <string name="pref_network_google_use_tor">Se connecter à Google via le réseau Tor</string>
     <string name="pref_network_google_use_tor_summary">"Nécessite l'installation d'Orbot
 Pas encore pris en charge"</string>
-    <string name="pref_auth_trust_google_title">Faire confiance à Google pour les permissions d\'application</string>
-    <string name="pref_auth_trust_google_summary">Lorsque désactivé, l\'utilisateur est invité avant qu\'une demande d\'autorisation de l\'application ne soit envoyée à Google. Certaines applications ne pourront pas utiliser le compte Google si cette option est désactivée</string>
+    <string name="pref_auth_trust_google_title">Faire confiance à Google pour les permissions d'application</string>
+    <string name="pref_auth_trust_google_summary">Lorsque désactivé, l'utilisateur est invité avant qu'une demande d'autorisation de l'application ne soit envoyée à Google. Certaines applications ne pourront pas utiliser le compte Google si cette option est désactivée</string>
     <string name="pref_auth_visible_title">Autoriser les applications à trouver les comptes</string>
-    <string name="pref_auth_visible_summary">Lorsque activé, toutes les applications sur cet appareil pourront voir l\'adresse e-mail de vos comptes Google sans autorisation préalable</string>
-    <string name="pref_auth_include_android_id_title">S\'authentifier avec l\'enregistrement de l\'appareil</string>
-    <string name="pref_auth_include_android_id_summary">Lorsque désactivé, les demandes d\'authentification ne seront pas liées à l\'enregistrement de l\'appareil, ce qui permet à des appareils non autorisés de se connecter, mais peut entraîner des conséquences imprévues</string>
-    <string name="pref_auth_strip_device_name_title">Supprimer le nom de l\'appareil pour l\'authentification</string>
-    <string name="pref_auth_strip_device_name_summary">Lorsque activé, les demandes d\'authentification n\'incluront pas le nom de l\'appareil, ce qui peut permettre à des appareils non autorisés de se connecter, mais peut entraîner des conséquences imprévues</string>
+    <string name="pref_auth_visible_summary">Lorsque activé, toutes les applications sur cet appareil pourront voir l'adresse e-mail de vos comptes Google sans autorisation préalable</string>
+    <string name="pref_auth_include_android_id_title">S'authentifier avec l'enregistrement de l'appareil</string>
+    <string name="pref_auth_include_android_id_summary">Lorsque désactivé, les demandes d'authentification ne seront pas liées à l'enregistrement de l'appareil, ce qui permet à des appareils non autorisés de se connecter, mais peut entraîner des conséquences imprévues</string>
+    <string name="pref_auth_strip_device_name_title">Supprimer le nom de l'appareil pour l'authentification</string>
+    <string name="pref_auth_strip_device_name_summary">Lorsque activé, les demandes d'authentification n'incluront pas le nom de l'appareil, ce qui peut permettre à des appareils non autorisés de se connecter, mais peut entraîner des conséquences imprévues</string>
     <!--preferences: hide icon in launcher-->
-    <string name="pref_hide_launcher_icon">Masquer l\'icône dans le lanceur</string>
+    <string name="pref_hide_launcher_icon">Masquer l'icône dans le lanceur</string>
     <!--preferences: about-->
     <string name="pref_about_title">À propos de MicroG RE</string>
     <string name="pref_github_summary">Dépôt du code source</string>
@@ -221,7 +221,7 @@ Pas encore pris en charge"</string>
     <string name="perm_status_broadcast_label">écouter les diffusions de statut internes</string>
     <string name="perm_gsf_read_gservices_label">lire la configuration des services Google</string>
     <string name="perm_c2dm_receive_label">écouter les messages C2DM</string>
-    <string name="perm_c2dm_send_label">envoyer des messages C2DM à d\'autres applications</string>
+    <string name="perm_c2dm_send_label">envoyer des messages C2DM à d'autres applications</string>
     <string name="perm_gtalk_svc_label">échanger des messages et recevoir des notifications de synchronisation provenant des serveurs Google</string>
     <string name="perm_extended_access_label">Accès étendu aux services Google</string>
     <!--Conditions-->
