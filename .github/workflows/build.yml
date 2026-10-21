@@ -44,18 +44,22 @@ jobs:
               echo "Matcher configured: ${NAME:?}"
             fi
           done
-      - name: "Normalize escaped apostrophes in French resources"
+      - name: "Normalize invalid backslash escapes in French resources"
         run: |
           python3 - <<'PY'
           from pathlib import Path
+          import re
+
           path = Path("play-services-core/src/main/res/values-fr-rFR/strings.xml")
           text = path.read_text(encoding="utf-8")
-          fixed = text.replace("\\\\'", "'")
+          # Backslashes in this French translation are not valid Android resource
+          # escapes and cause AAPT2 to report "Invalid unicode escape sequence".
+          fixed = re.sub(r"\\+", "", text)
           if fixed != text:
               path.write_text(fixed, encoding="utf-8")
-              print("Removed invalid backslash escapes before apostrophes.")
+              print("Removed invalid backslash escapes from French resources.")
           else:
-              print("No invalid apostrophe escapes found; resource file unchanged.")
+              print("No backslash escapes found; resource file unchanged.")
           PY
       - name: "Execute Gradle assemble"
         run: "./gradlew --no-daemon assemble"
