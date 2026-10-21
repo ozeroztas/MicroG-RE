@@ -29,8 +29,6 @@ jobs:
           build-scan-terms-of-use-agree: "yes"
       - name: "Setup matchers"
         run: |
-          # Setting up matchers...
-
           matchers_dir='${{ github.workspace }}/.github/matchers'
           matcher_list()
           {
@@ -44,7 +42,7 @@ jobs:
               echo "Matcher configured: ${NAME:?}"
             fi
           done
-      - name: "Normalize invalid backslash escapes in French resources"
+      - name: "Normalize apostrophes in French Android resources"
         run: |
           python3 - <<'PY'
           from pathlib import Path
@@ -52,16 +50,24 @@ jobs:
 
           path = Path("play-services-core/src/main/res/values-fr-rFR/strings.xml")
           text = path.read_text(encoding="utf-8")
-          # Backslashes in this French translation are not valid Android resource
-          # escapes and cause AAPT2 to report "Invalid unicode escape sequence".
-          fixed = re.sub(r"\\+", "", text)
+
+          # Android string resources require apostrophes to be escaped unless
+          # the complete value is quoted. Escape only unescaped apostrophes
+          # inside string elements; leave comments and XML attributes untouched.
+          pattern = re.compile(r'(<string\b[^>]*>)(.*?)(</string>)', re.DOTALL)
+          def fix(match):
+              value = match.group(2)
+              value = re.sub(r"(?<!\\)'", r"\\'", value)
+              return match.group(1) + value + match.group(3)
+
+          fixed = pattern.sub(fix, text)
           if fixed != text:
               path.write_text(fixed, encoding="utf-8")
-              print("Removed invalid backslash escapes from French resources.")
+              print("Escaped unescaped apostrophes in French Android strings.")
           else:
-              print("No backslash escapes found; resource file unchanged.")
+              print("French Android strings already normalized.")
           PY
       - name: "Execute Gradle assemble"
-        run: "./gradlew --no-daemon assemble"
+        run: "./gradlew --no-daemon clean assemble"
       - name: "Execute Gradle check"
         run: "./gradlew --no-daemon check"
