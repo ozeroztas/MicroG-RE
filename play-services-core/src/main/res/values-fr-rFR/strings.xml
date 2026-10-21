@@ -24,10 +24,10 @@
     <string name="signin_subtext_sharing">Pour continuer, microG partagera le nom, l\'adresse e-mail et la photo de profil de votre compte Google avec %1$s</string>
     <!--auth: buttons-->
     <!--auth: messages-->
-    <string name="auth_before_connect">"Connecter un compte Google avec microG.
+    <string name="auth_before_connect">Connecter un compte Google avec microG.
 
 Connectons-nous à un compte Google, utilisez le bouton <b>Se connecter</b> ou, si vous avez un appareil Huawei, utilisez le bouton <b>Huawei</b>
-En appuyant sur l'un de ces boutons, vous serez redirigé vers la page de connexion à votre compte."</string>
+En appuyant sur l'un de ces boutons, vous serez redirigé vers la page de connexion à votre compte.</string>
     <string name="auth_connecting">"Votre appareil établit une connexion avec les serveurs de Google pour vous connecter.
 
 Cela peut prendre quelques secondes"</string>
