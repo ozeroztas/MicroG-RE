@@ -44,6 +44,19 @@ jobs:
               echo "Matcher configured: ${NAME:?}"
             fi
           done
+      - name: "Normalize escaped apostrophes in French resources"
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          path = Path("play-services-core/src/main/res/values-fr-rFR/strings.xml")
+          text = path.read_text(encoding="utf-8")
+          fixed = text.replace("\\\\'", "'")
+          if fixed != text:
+              path.write_text(fixed, encoding="utf-8")
+              print("Removed invalid backslash escapes before apostrophes.")
+          else:
+              print("No invalid apostrophe escapes found; resource file unchanged.")
+          PY
       - name: "Execute Gradle assemble"
         run: "./gradlew --no-daemon assemble"
       - name: "Execute Gradle check"
